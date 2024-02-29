@@ -1,6 +1,6 @@
 import { StyleSheet ,Text, View, Image, Pressable } from 'react-native';
 
-const AlbumCard = ({ song }) => {
+const SongsCard = ({ song }) => {
   return (
     <View style={styles.container}>
       <Image 
@@ -66,4 +66,4 @@ const styles = StyleSheet.create({
   }
 });
 
-export default AlbumCard;
+export default SongsCard;

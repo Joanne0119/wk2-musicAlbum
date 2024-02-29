@@ -1,0 +1,51 @@
+[
+  {
+    "albumName" : "Celestial",
+    "artist" : "Ed Sheeran",
+    "name" : "Celestial",
+    "image" : "https://upload.wikimedia.org/wikipedia/en/f/f3/Ed_Sheeran_-_Celestial.png",
+    "artistImage" : "https://estaticos-cdn.prensaiberica.es/clip/a1c5d4df-c1ce-4af1-a485-ca475ae2ef37_alta-libre-aspect-ratio_default_0.jpg"
+  },{
+    "albumName" : "How I’m Feeling",
+    "artist" : "Lauv feat. Troye Sivan",
+    "name" : "I'm so tired...",
+    "image" : "https://upload.wikimedia.org/wikipedia/en/f/fc/I%E2%80%99m_So_Tired_Lauv_Troye_Sivan.png",
+    "artistImage" : "https://im.marieclaire.com.tw/s805c452h100b0/assets/mc/201905/5CF1105FA86601559302239.jpeg"
+  },{
+    "albumName" : " I Met You When I Was 18",
+    "artist" : "Lauv",
+    "name" : "Paris in the rain",
+    "image" : "https://lastfm.freetls.fastly.net/i/u/500x500/4d68abd50f95efd968ac7f83aae51c74.jpg",
+    "artistImage" : "https://im.marieclaire.com.tw/s805c452h100b0/assets/mc/201905/5CF1105FA86601559302239.jpeg"
+  },{
+    "albumName" : "Divide",
+    "artist" : "Ed Sheeran",
+    "name" : "Perfect",
+    "image" : "https://upload.wikimedia.org/wikipedia/en/8/80/Ed_Sheeran_Perfect_Single_cover.jpg",
+    "artistImage" : "https://estaticos-cdn.prensaiberica.es/clip/a1c5d4df-c1ce-4af1-a485-ca475ae2ef37_alta-libre-aspect-ratio_default_0.jpg"
+  },{
+    "albumName" : "X",
+    "artist" : "Ed Sheeran",
+    "name" : "Photograph",
+    "image" : "https://i1.sndcdn.com/artworks-000124348046-qeyff7-t500x500.jpg",
+    "artistImage" : "https://estaticos-cdn.prensaiberica.es/clip/a1c5d4df-c1ce-4af1-a485-ca475ae2ef37_alta-libre-aspect-ratio_default_0.jpg"
+  },{
+    "albumName" : " I Met You When I Was 18",
+    "artist" : "Lauv",
+    "name" : "I Like Me Better",
+    "image" : "https://upload.wikimedia.org/wikipedia/zh/1/1b/Lauv_-_I_Like_Me_Better.png",
+    "artistImage" : "https://im.marieclaire.com.tw/s805c452h100b0/assets/mc/201905/5CF1105FA86601559302239.jpeg"
+  },{
+    "albumName" : "VOICENOTE",
+    "artist" : "Charlie Puth",
+    "name" : "How Long",
+    "image" : "https://upload.wikimedia.org/wikipedia/en/1/10/How_Long_Charlie_Puth_Single_Cover.png",
+    "artistImage" : "https://i.kfs.io/artist/global/2236899,0v16/fit/500x500.jpg"
+  },{
+    "albumName" : "Nine Track Mind",
+    "artist" : "Charlie Puth feat. Selena Gomez",
+    "name" : "We Don't Talk Anymore",
+    "image" : "https://m.media-amazon.com/images/M/MV5BOWQyYmJiOWUtNzkzYS00YWJlLWI5YjgtYTg4MjI0MmM1N2ZkXkEyXkFqcGdeQXVyNjE0ODc0MDc@._V1_.jpg",
+    "artistImage" : "https://i.kfs.io/artist/global/2236899,0v16/fit/500x500.jpg"
+  }
+]

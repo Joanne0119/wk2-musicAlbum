@@ -1,12 +1,12 @@
 import { StyleSheet, Text, FlatList, View } from 'react-native';
-import albumListItem from '../../data/albumListItem.json'
-import AlbumCard from './AlbumCard';
+import albumListItem from '../../data/songListItem.json'
+import AlbumCard from './SognsCard';
 
 const ForYouList = ({list}) => {
   return (
     <View>
-      <Text style={styles.category}>For You</Text>
       <FlatList
+        style={styles.flat}
         data={albumListItem}
         renderItem={({ item }) => <AlbumCard song={item} />}
         numColumns={2}
@@ -21,6 +21,9 @@ const styles = StyleSheet.create({
     fontSize: 40,
     fontWeight: 'bold',
     padding: 20
+  },
+  flat : {
+    aspectRatio: 1/3
   }
 });
 

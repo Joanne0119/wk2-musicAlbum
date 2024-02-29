@@ -1,6 +1,4 @@
 import { SafeAreaView, StyleSheet, Text, View, Image, FlatList } from 'react-native';
-import albumListItem from './data/albumListItem.json'
-import AlbumCard from './src/components/AlbumCard';
 import ForYouList from './src/components/ForYouList';
 
 export default function App() {

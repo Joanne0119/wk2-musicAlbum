@@ -7,12 +7,14 @@ const AlbumCard = ({ song }) => {
         style={styles.image} 
         source={{ uri: song.image}}
       />
-      <Image 
-        style={styles.artistImage}
-        source={{ uri: song.artistImage}}
-      />
-      <Text style={styles.title}>{song.name}</Text>
-      <Text style={styles.artist}>{song.artist}</Text>
+      <Text numberOfLines={1} style={styles.title}>{song.name}</Text>
+      <View style={styles.artistInfo}>
+        <Image 
+          style={styles.artistImage}
+          source={{ uri: song.artistImage}}
+        />
+        <Text numberOfLines={1} style={styles.artist}>{song.artist}</Text>
+      </View>
       <Pressable style={styles.startButton}>
         <Text>▲</Text>
       </Pressable>
@@ -39,15 +41,28 @@ const styles = StyleSheet.create({
     borderRadius: 10,
     marginBottom: 6
   },
+  artistInfo : {
+    flexDirection: 'row',
+  },
   artistImage: {
-    borderRadius: 30
+    borderRadius: 30,
+    width: 16,
+    height: 16,
+    marginRight: 8
+  },
+  artist : {
+    flex: 1
   },
   startButton: {
     transform: [{rotate: '90deg'}],
     backgroundColor: '#eee',
-    padding: 5,
-    borderRadius: 20,
-    width: 20
+    paddingHorizontal: 6,
+    paddingVertical: 4,
+    borderRadius: 22,
+    width: 22,
+    alignSelf: 'flex-end',
+    marginTop: 5,
+    textAlign: 'center'
   }
 });
 
